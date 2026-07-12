@@ -26,7 +26,7 @@ html.dark {
 
 body {
   background-color: var(--bg);
-  color: var((var(--text-primary)));
+  color: var(--text-primary);
   transition:
     background-color 0.3s ease,
     color 0.3s ease;
