@@ -53,13 +53,13 @@ function Navbar() {
         >
           Contact
         </Link>
-        <a
-          href="#about"
+        <Link
+          to="/#about"
           style={{ color: linkColor }}
           className="text-sm hover:opacity-70 transition-opacity"
         >
           About
-        </a>
+        </Link>
       </div>
 
       <div className="flex md:hidden items-center gap-3">
